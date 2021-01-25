@@ -26,6 +26,17 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
+```python
+self.rnn = nn.RNN(
+    input_size=self.n_vocab,
+    hidden_size=self.hidden_size,
+    num_layers=self.num_layers,
+    batch_first=True
+)
+```
+
+
+
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
